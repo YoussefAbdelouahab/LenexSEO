@@ -1,6 +1,6 @@
 "use client"; 
-import './Services.scss';
 import '../Main.scss'
+import './Services.scss';
 import Navbar from "../../app/components/Header/Navbar"
 import Footer from "../../app/components/Footer/Footer"
 import SimpleArrowButton from '../../app/components/Button/SimpleArrowButton/SimpleArrowButton';

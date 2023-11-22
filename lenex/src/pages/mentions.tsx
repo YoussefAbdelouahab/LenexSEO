@@ -1,6 +1,6 @@
 "use client"; 
-import './Mention.scss';
 import './Main.scss'
+import './Mention.scss';
 import Navbar from "../app/components/Header/Navbar"
 import Footer from "../app/components/Footer/Footer"
 import { useEffect } from 'react';

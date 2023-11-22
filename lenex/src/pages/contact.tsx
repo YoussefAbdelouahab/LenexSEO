@@ -1,5 +1,5 @@
-import './Contact.scss';
 import './Main.scss'
+import './Contact.scss';
 import NavbarBlack from "../app/components/Header/NavbarBlack"
 import Footer from "../app/components/Footer/Footer"
 import ContactPlane from "../../assets/ContactPlane.svg"
