@@ -1,0 +1,44 @@
+.ArrowButton{
+    font-family: "Montserrat";
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 50px;
+    border-radius: 18px;
+    border: none;
+    align-items: center;
+    font-weight: 300;
+    font-size: 18px;
+    background: #3A9BDC;
+    position: relative;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    border: 1px solid transparent;
+    .arrow1{
+        display: block;
+    }
+    .arrow2{
+        display: none;
+    }
+    img{
+        width: 30px;
+        position: absolute;
+        top: 33%;
+        right: 6%;
+    }
+}
+
+.ArrowButton:hover{
+    transform: scale(1.1); 
+    color: #3A9BDC;
+    background: white;
+    border: 1px solid #3A9BDC;
+    
+    .arrow1{
+        display: none;
+    }
+    .arrow2{
+        display: block;
+    }
+}

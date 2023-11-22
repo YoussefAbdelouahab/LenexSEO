@@ -1,0 +1,555 @@
+.services_header {
+    font-family: 'Montserrat';
+    height: 100vh;
+    width: 100%;
+    background-image: url("/assets/BackgroundExpertise.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .services_header_container {
+        font-weight: 300;
+        padding-top: 20%;
+        padding-right: 15%;
+        padding-left: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            font-weight: normal;
+            font-size: 64px;
+            text-align: center;
+        }
+
+        img {
+            margin-left: 30px;
+            width: 10%;
+            height: 10%;
+        }
+    }
+}
+
+
+.services_container1 {
+    display: flex;
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: black;
+    font-family: "Montserrat";
+
+    .BackgroundTitle {
+        font-family: 'Inter', sans-serif;
+        color: rgba(58, 155, 220, 0.15);
+        font-size: 92px;
+        position: absolute;
+        left: 5%;
+        top: -26%;
+    }
+
+    .container1_left {
+        width: 50%;
+        padding-right: 10%;
+        position: relative;
+
+        h2 {
+            font-weight: normal;
+            font-size: 32px;
+            margin: 0;
+        }
+
+        p {
+            width: 110%;
+            font-size: 18px;
+            line-height: 200%;
+            /* 48.216px */
+            color: #7B7B7B;
+        }
+
+        li {
+            width: 110%;
+            font-size: 16px;
+            line-height: 200%;
+            /* 48.216px */
+            color: #7B7B7B;
+        }
+
+        .arrowbutton_marge {
+            margin-top: 30px;
+        }
+
+        .LogoLenexAlone1 {
+            right: 10%;
+            top: 70%;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+
+        .container1_right_sentence {
+            font-size: 24px;
+            color: black;
+            width: 130%;
+        }
+    }
+
+    .container1_right {
+        width: 50%;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.services_container2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+    overflow: hidden;
+    background-image: url("/assets/Section2Services.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .container2_first {
+        display: flex;
+        flex-direction: row;
+        margin-top: 100px;
+        margin-bottom: 150px;
+
+        .container2_first_1 {
+            width: 50%;
+            position: relative;
+
+            img {
+                width: 70%;
+
+            }
+
+            .Circle1:hover {
+                transform: scale(1.1) rotateZ(360deg);
+            }
+
+            .Circle1 {
+                position: relative;
+                z-index: 50;
+                transition: all 1s ease-in-out;
+            }
+
+            .Line1 {
+                position: absolute;
+                width: 200%;
+                right: -160%;
+            }
+        }
+
+        .container2_first_2 {
+            margin-top: 12%;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            font-family: "Montserrat";
+            font-size: 18px;
+            position: relative;
+
+            h3 {
+                font-weight: normal;
+                font-size: 32px;
+                margin: 0;
+            }
+
+            p {
+                width: 72%;
+            }
+
+            .BackgroundTitle {
+                font-family: 'Inter', sans-serif;
+                color: rgba(255, 255, 255, 0.25);
+                font-size: 46px;
+                position: absolute;
+                top: -20%;
+                right: 35%;
+            }
+
+            .container2_SimpleArrowButton {
+                margin-top: 30px;
+                width: 10%;
+            }
+
+            .LogoLenexAlone1 {
+                right: 25%;
+                top: 80%;
+                width: 100px;
+                height: 100px;
+                position: absolute;
+            }
+        }
+    }
+
+    .container2_second {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 150px;
+
+        .container2_second_1 {
+            width: 50%;
+            margin-top: 8%;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            font-family: "Montserrat";
+            font-size: 18px;
+            position: relative;
+
+            h3 {
+                font-weight: normal;
+                font-size: 32px;
+                margin: 0;
+            }
+
+            p {
+                width: 75%;
+            }
+
+            .BackgroundTitle {
+                width: 100%;
+                font-family: 'Inter', sans-serif;
+                color: rgba(255, 255, 255, 0.20);
+                font-size: 46px;
+                position: absolute;
+                top: -18%;
+                right: 10%;
+            }
+
+            .container2_SimpleArrowButton {
+                margin-top: 30px;
+                width: 10%;
+            }
+
+            .LogoLenexAlone1 {
+                right: 25%;
+                top: 78%;
+                width: 100px;
+                height: 100px;
+                position: absolute;
+            }
+
+        }
+
+        .container2_second_2 {
+            width: 50%;
+            position: relative;
+
+            img {
+                width: 70%;
+            }
+
+            .Circle2:hover {
+                transform: scale(1.1) rotateZ(360deg);
+            }
+
+            .Circle2 {
+                position: relative;
+                z-index: 50;
+                transition: all 1s ease-in-out;
+            }
+
+            .Line2 {
+                position: absolute;
+                width: 200%;
+                right: 80%;
+                width: 180%;
+            }
+        }
+    }
+
+    .container2_third {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 150px;
+
+
+        .container2_third_1 {
+            width: 50%;
+            position: relative;
+
+            img {
+                width: 70%;
+            }
+
+            .Circle3:hover {
+                transform: scale(1.1) rotateZ(360deg);
+            }
+
+            .Circle3 {
+                position: relative;
+                z-index: 50;
+                transition: all 1s ease-in-out;
+            }
+
+            .Line3 {
+                position: absolute;
+                top: -10%;
+                width: 195%;
+                right: -144%;
+            }
+
+        }
+
+        .container2_third_2 {
+            width: 50%;
+            margin-top: 8%;
+            display: flex;
+            flex-direction: column;
+            font-family: "Montserrat";
+            font-size: 18px;
+            position: relative;
+
+            h3 {
+                font-weight: normal;
+                font-size: 32px;
+                margin: 0;
+            }
+
+            p {
+                width: 65%;
+            }
+
+            .BackgroundTitle {
+                font-family: 'Inter', sans-serif;
+                color: rgba(255, 255, 255, 0.25);
+                font-size: 46px;
+                position: absolute;
+                top: -20%;
+                right: 40%;
+            }
+
+            .container2_SimpleArrowButton {
+                margin-top: 30px;
+                width: 10%;
+            }
+
+            .LogoLenexAlone1 {
+                right: 35%;
+                top: 75%;
+                width: 100px;
+                height: 100px;
+                position: absolute;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .services_container1 {
+        display: flex;
+        position: relative;
+        margin-top: 150px;
+        margin-bottom: 50px;
+        padding-left: 5%;
+        padding-right: 5%;
+        color: black;
+        font-family: "Montserrat";
+    }
+    .services_container2 {
+        padding-left: 5%;
+        padding-right: 5%;
+        p {
+            width: 100% !important;
+        }
+
+        .container2_first_2 {
+            .BackgroundTitle {
+                top: -23% !important;
+                right: 20% !important;
+            }
+        }
+        .container2_third_2 {
+            .BackgroundTitle {
+                top: -23% !important;
+                right: 20% !important;
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .services_header {
+        background-position: center;
+    }
+
+    .services_container1 {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 10%;
+        gap: 50px;
+
+        .BackgroundTitle {
+            display: none;
+        }
+
+        .container1_left {
+            width: 100%;
+
+            .container1_right_sentence {
+                width: 100%;
+            }
+
+            .LogoLenexAlone1 {
+                display: none;
+            }
+        }
+
+        .container1_right {
+            width: 100%;
+
+            img {
+                width: 100% !important;
+            }
+        }
+    }
+
+    .services_container2 {
+        .container2_first {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+
+            .container2_first_1 {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .container2_first_2 {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+
+                .BackgroundTitle {
+                    display: none;
+                }
+
+                .LogoLenexAlone1 {
+                    display: none;
+                }
+            }
+        }
+
+        .container2_second {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+
+            .container2_second_1 {
+                order: 1;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+
+                .BackgroundTitle {
+                    display: none;
+                }
+
+                .LogoLenexAlone1 {
+                    display: none;
+                }
+            }
+
+            .container2_second_2 {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+
+            }
+        }
+
+        .container2_third {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+
+            .container2_third_1 {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .container2_third_2 {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+
+                .BackgroundTitle {
+                    display: none;
+                }
+
+                .LogoLenexAlone1 {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 426px) {
+
+    .services_header_container {
+        padding: 0 !important;
+        height: 100vh;
+        margin-top: -20%;
+
+        h1 {
+            font-size: 32px !important;
+        }
+
+        img {
+            width: 20% !important;
+            height: 8% !important;
+        }
+    }
+
+    .services_container1 {
+        margin-top: 10% !important;
+    }
+
+    .services_container2 {
+        padding: 0 5%;
+
+        .container2_first {
+            .container2_first_1 {}
+
+            .container2_first_2 {
+                p {
+                    width: 100%;
+                }
+            }
+        }
+
+        .container2_SimpleArrowButton {
+            display: flex;
+            justify-content: center;
+            width: 100% !important;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.SimpleWhiteButton{
+    font-family: "Montserrat";
+    color: #3A9BDC;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 33px;
+    padding-right: 33px;
+    border-radius: 18px;
+    border: none;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    background: white;
+    position: relative;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.SimpleWhiteButton:hover{
+    transform: scale(1.1); 
+    color: white;
+    background: #3A9BDC;
+}

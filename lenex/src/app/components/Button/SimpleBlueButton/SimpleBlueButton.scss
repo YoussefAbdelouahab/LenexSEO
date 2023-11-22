@@ -1,0 +1,23 @@
+.SimpleBlueButton {
+    font-family: "Montserrat";
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 33px;
+    padding-right: 33px;
+    border-radius: 18px;
+    border: none;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    background: #3A9BDC;
+    position: relative;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.SimpleBlueButton:hover {
+    transform: scale(1.1);
+    color: #3A9BDC;
+    background: white;
+}

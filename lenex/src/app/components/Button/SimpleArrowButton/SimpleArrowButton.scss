@@ -1,0 +1,37 @@
+.SimpleArrowButton{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    border: 1px solid transparent;
+    .arrow1{
+        display: none;
+    }
+    .arrow2{
+        display: block;
+    }
+    img{
+        width: 80%;
+    }
+}
+
+.SimpleArrowButton:hover{
+    transform: scale(1.1); 
+    background: #3A9BDC;
+    border: 1px solid #3A9BDC;
+    
+    .arrow1{
+        display: block;
+    }
+    .arrow2{
+        display: none;
+    }
+}
