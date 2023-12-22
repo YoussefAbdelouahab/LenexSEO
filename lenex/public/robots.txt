@@ -1,0 +1,148 @@
+User-agent: *
+Allow: /*.css$
+Allow: /*.css?
+Allow: /*.js$
+Allow: /*.js?
+Allow: /*.gif
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.png
+Allow: /*.svg
+
+User-agent: baiduspider-image
+Disallow: /core/
+Disallow: /mention
+Disallow: /web.config
+Disallow: *.pdf
+Disallow: /admin/
+
+User-agent: baiduspider-mobile
+Disallow: /core/
+Disallow: /mention
+Disallow: /web.config
+Disallow: *.pdf
+Disallow: /admin/
+
+User-agent: bingbot
+Disallow: /core/
+Disallow: /mention
+Disallow: /web.config
+Disallow: *.pdf
+Disallow: /admin/
+
+User-agent: baiduspider
+Disallow: /core/
+Disallow: /mention
+Disallow: /web.config
+Disallow: *.pdf
+Disallow: /admin/
+
+User-agent: baiduspider-news
+Disallow: /core/
+Disallow: /mention
+Disallow: /web.config
+Disallow: *.pdf
+Disallow: /admin/
+
+User-agent: baiduspider-video
+Disallow: /core/
+Disallow: /mention
+Disallow: /web.config
+Disallow: *.pdf
+Disallow: /admin/
+
+User-agent: msnbot
+Disallow: /core/
+Disallow: /mention
+Disallow: /web.config
+Disallow: *.pdf
+Disallow: /admin/
+
+User-agent: msnbot-media
+Disallow: /core/
+Disallow: /mention
+Disallow: /web.config
+Disallow: *.pdf
+Disallow: /admin/
+
+User-agent: adidxbot
+Disallow: /core/
+Disallow: /mention
+Disallow: /web.config
+Disallow: *.pdf
+Disallow: /admin/
+
+User-agent: Googlebot
+Disallow: /core/
+Disallow: /mention
+Disallow: /web.config
+Disallow: *.pdf
+Disallow: /admin/
+
+User-agent: Googlebot-Image
+Disallow: /core/
+Disallow: /mention
+Disallow: /web.config
+Disallow: *.pdf
+Disallow: /admin/
+
+User-agent: Googlebot-Mobile
+Disallow: /core/
+Disallow: /mention
+Disallow: /web.config
+Disallow: *.pdf
+Disallow: /admin/
+
+User-agent: Googlebot-News
+Disallow: /core/
+Disallow: /mention
+Disallow: /web.config
+Disallow: *.pdf
+Disallow: /admin/
+
+User-agent: Googlebot-Video
+Disallow: /core/
+Disallow: /mention
+Disallow: /web.config
+Disallow: *.pdf
+Disallow: /admin/
+
+User-agent: Storebot-Google
+Disallow: /core/
+Disallow: /mention
+Disallow: /web.config
+Disallow: *.pdf
+Disallow: /admin/
+
+User-agent: Mediapartners-Google
+Disallow: /core/
+Disallow: /mention
+Disallow: /web.config
+Disallow: *.pdf
+Disallow: /admin/
+
+User-agent: AdsBot-Google
+Disallow: /core/
+Disallow: /mention
+Disallow: /web.config
+Disallow: *.pdf
+Disallow: /admin/
+
+User-agent: slurp
+Disallow: /core/
+Disallow: /mention
+Disallow: /web.config
+Disallow: *.pdf
+Disallow: /admin/
+
+User-agent: yandex
+Disallow: /core/
+Disallow: /mention
+Disallow: /web.config
+Disallow: *.pdf
+Disallow: /admin/
+
+User-agent: bingbot
+Crawl-delay: 10
+
+Sitemap: https://www.lenex.fr/sitemap.xml
